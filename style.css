@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #004e92, #000428);
+    color: white;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #0d1a2d;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 20px;
+    background: url('assets/water-bg.jpg') no-repeat center center/cover;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 50, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #00bfff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0099cc;
+}
