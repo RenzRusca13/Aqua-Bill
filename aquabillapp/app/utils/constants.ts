@@ -1,0 +1,1 @@
+export const IP_ADDRESS = "http://10.220.119.134"
